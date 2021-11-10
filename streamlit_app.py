@@ -20,6 +20,10 @@ st.write("""
 
 """)
 st.write('---')
+st.subheader("Sample values for the input")
+df000=pd.read_csv("example.csv")
+
+df000
 st.write("""
 # Dynamic Price Prediction 
 * This app predicts the **Booking.com Prices** in KSA 🇸🇦
@@ -42,10 +46,7 @@ st.write('---')
 #X = pd.DataFrame(boston.data, columns=boston.feature_names)
 #Y = pd.DataFrame(boston.target, columns=["MEDV"])
 
-st.subheader("Sample values for the input")
-df000=pd.read_csv("example.csv")
 
-df000
 
 df4 = pd.read_csv('reg22.csv') 
 x1= df4
