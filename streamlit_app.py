@@ -22,7 +22,7 @@ st.write("""
 st.write('---')
 st.write("""
 # Dynamic Price Prediction 
-* This app predicts the **Booking.com Prices**!
+* This app predicts the **Booking.com Prices** in KSA 🇸🇦!
 
  
 
