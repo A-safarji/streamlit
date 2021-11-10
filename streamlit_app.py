@@ -20,7 +20,7 @@ st.write("""
 
 """)
 st.write('---')
-st.subheader("Sample values for the input (example)")
+st.subheader("Sample values for the input fields ")
 df000=pd.read_csv("example.csv")
 
 df000
