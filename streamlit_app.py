@@ -56,9 +56,9 @@ x1['Log_price'] = np.log(x1['price'])
 #st.write(x1)
 
 if st.checkbox("Show orignal dataframe"):
-	dataframe=pd.read_csv("reg22.csv")
-	dataframe.drop('Unnamed: 0', axis=1, inplace=True)
-	dataframe
+	dataframee=pd.read_csv("reg22.csv")
+	#dataframee.drop('Unnamed: 0', axis=1, inplace=True)
+	dataframee
 st.write('---')
 #st.write(X)
 X=  x1[['beds','number_of_ratings','rating']]
