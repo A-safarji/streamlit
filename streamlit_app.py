@@ -59,7 +59,7 @@ x1['Log_price'] = np.log(x1['price'])
 
 X=  x1[['beds','number_of_ratings','rating']]
 Y= x1['Log_price']
-#st.write(X)
+st.write(X)
 
 X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.2, random_state=40)
 #X_train, X_test, y_train, y_test = train_test_split(X, Y, test_size=0.3, random_state=10)
@@ -78,13 +78,13 @@ def user_input_features():
     #AGE = st.sidebar.slider('AGE',  float(X.AGE.min()),  float(X.AGE.max()),  float(X.AGE.mean()))
     beds = st.sidebar.slider('Number of beds',  int(X.beds.min()),  int(X.beds.max()),  int(X.beds.mean()))
     review = st.sidebar.slider('Number of reviews',  int(X.number_of_ratings.min()),  int(X.number_of_ratings.max()),  int(X.number_of_ratings.mean()))
-    rating = st.sidebar.slider('Ratings',  float(X.rating.min()),  float(X.rating.max()),  float(X.rating.mean()))
+    rating = st.sidebar.slider('Avg Ratings',  float(X.rating.min()),  float(X.rating.max()),  float(X.rating.mean()))
    # Size = st.sidebar.slider('Room Size(m2)',  float(X.Size.min()),  float(X.Size.max()),  float(X.Size.mean()))
    
    
     data = {'Number of beds': beds,
             'Number of reviews': review,
-            'Ratings': rating,
+            'Avg Ratings': rating,
             }
 
             
