@@ -113,7 +113,7 @@ prediction = model.predict(df)
 
 st.header('Predicted Price (Saudi Riyal) :red_circle:')
 st.write(round(np.exp(prediction[0]), 2),"SR") 
-st.write('* If the actual price more than than the predicted price by 70%, it means alert. (you need to take action)')
+st.write('* If the actual price more than than the predicted price by 70%, it means alert. (take action before reacing 100%)')
 st.write('---')
 
 
