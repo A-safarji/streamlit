@@ -114,6 +114,7 @@ prediction = model.predict(df)
 st.header('Predicted Price (Saudi Riyal) :red_circle:')
 st.write(round(np.exp(prediction[0]), 2),"SR") 
 st.write('---')
+st.write('* If the actual price more than than the predicted price by 70%, it means alert ')
 
 # Explaining the model's predictions using SHAP values
 # https://github.com/slundberg/shap
