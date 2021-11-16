@@ -145,6 +145,18 @@ st.write("""
 
 """)
 
+st.write('---')
+
+st.write('## Contact')
+
+
+st.write("""
+
+[Booking.com Price Prediction Project](https://github.com/A-safarji) - feel free to contact!
+
+""")
+
+
 
 
 
