@@ -5,10 +5,10 @@ import matplotlib.pyplot as plt
 #from sklearn import datasets
 from sklearn.ensemble import RandomForestRegressor
 import numpy as np
-from sklearn.model_selection import cross_val_score
-from sklearn.model_selection import RepeatedKFold
-from sklearn.preprocessing import RobustScaler
-from sklearn.preprocessing import StandardScaler
+#from sklearn.model_selection import cross_val_score
+#from sklearn.model_selection import RepeatedKFold
+#from sklearn.preprocessing import RobustScaler
+#from sklearn.preprocessing import StandardScaler
 from sklearn.model_selection import train_test_split  
 
 
