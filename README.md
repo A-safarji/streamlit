@@ -1,7 +1,7 @@
 # Welcome to Regression Peoject (ML/AI)!
 
 
-* https://share.streamlit.io/a-safarji/streamlit
+* https://regressionbooking.herokuapp.com
 
 <!--Edit `/streamlit_app.py` to customize this app to your heart's desire :heart:
 
