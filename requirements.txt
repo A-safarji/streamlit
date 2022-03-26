@@ -5,6 +5,5 @@ matplotlib
 scikit-learn
 shap
 numpy 
-pip 
-
+pip==22.0.4
 
